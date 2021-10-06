@@ -1,8 +1,9 @@
-# pysql 
+# PYSQL ( python + mysql )
 
 Overview: 
 * I have designed and implemented a Database Accesing Applicaton Logic from scrach.
-* It's a MINI Project which express how can we connect mysql database with python using python mysql connector module
+* It's a MINI Project which express how can we connect mysql database with python using python mysql connector module.
+* Project idea is based on real world senario : BLOOD BANK DBMS.
 
 Features:
 * This application provide a non-tech user a friendly interface to access database without knowning any Query language or database fundamentals.
@@ -15,31 +16,8 @@ Futher Improvement Possibilities:
  As adding features is easy task because of Clean uderstandable Code & OOPs benefits.
 
 System Requirements
-pyhton3 installed with mysql-connector module (scr: https://pypi.org/project/mysql-connector-python/ )
-mysql installed 
-Database_details,user_id & password updated in pysql.py file.
+* pyhton3 installed with mysql-connector module (scr: https://pypi.org/project/mysql-connector-python/ )
+* mysql installed 
+* Database_details,user_id & password modified in pysql.py file.
 
-Dive in technical !
-
-mysql> USE project;
-Database changed
-
-mysql> SHOW TABLES;
-+-------------------+
-| Tables_in_project |
-+-------------------+
-| data              |
-+-------------------+
-
-mysql> DESCRIBE data;
-+--------+--------------+------+-----+---------+----------------+
-| Field  | Type         | Null | Key | Default | Extra          |
-+--------+--------------+------+-----+---------+----------------+
-| userid | int          | NO   | PRI | NULL    | auto_increment |
-| name   | varchar(100) | YES  |     | NULL    |                |
-| bldgrp | varchar(4)   | YES  |     | NULL    |                |
-| phno   | varchar(12)  | YES  |     | NULL    |                |
-+--------+--------------+------+-----+---------+----------------+
-
-
-#Here "project" is our DB and "data" is table on which our python code runs And user don't need to learn only query language to access Database, this task has been automated by python code
+learning never ends, Dive in here: https://www.geeksforgeeks.org/mysql-connector-python-module-in-python/

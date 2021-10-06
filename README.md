@@ -2,7 +2,7 @@
 ###### python + mysql
 
 Overview:
-8 I have designed and implemented a Database Accessing Application Logic from Scratch.
+* I have designed and implemented a Database Accessing Application Logic from Scratch.
 * It's a MINI Project which expresses how we can connect a mysql database with python using the python mysql connector module.
 * Project idea is based on a real-world scenario : BLOOD BANK DBMS.
 

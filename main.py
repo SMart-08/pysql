@@ -60,7 +60,7 @@ def main():
 			elif conch==2:
 				result = obj.exe('SELECT DISTINCT bldgrp FROM data;')
 				print(result)
-				bldgrp = input('ENTER BLOOD HERE HERE: ')
+				bldgrp = input('ENTER BLOOD GROUP HERE: ')
 				result = obj.select_query('SELECT * FROM data WHERE bldgrp=\'{}\' '.format(bldgrp))
 				print(result)
 			elif conch==3:

@@ -1,7 +1,7 @@
 # PYSQL ( python + mysql )
 
 Overview: 
-* I have designed and implemented a Database Accesing Applicaton Logic from scrach.
+* I have designed and implemented a Database Accessing Application Logic from scrach.
 * It's a MINI Project which express how can we connect mysql database with python using python mysql connector module.
 * Project idea is based on real world senario : BLOOD BANK DBMS.
 
